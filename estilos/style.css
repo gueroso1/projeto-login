@@ -113,8 +113,9 @@ form > input[type=submit]:hover {
 }
 
 form > .botao {
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1em;
     width: 100%;
     height: 40px;

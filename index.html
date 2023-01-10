@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,36 @@
     <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <main>
         <section id="login">
             <div id="imagem"></div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-icons">person</span>
-                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email"
+                            required maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
                     <div class="campo">
                         <span class="material-icons">vpn_key</span>
-                        <input type="password" name="senha" id="senha" placeholder="sua senha" autocomplete="current-password" required minlength="8" max="20">
+                        <input type="password" name="senha" id="senha" placeholder="sua senha"
+                            autocomplete="current-password" required minlength="8" max="20">
                         <label for="senha">Senha</label>
                     </div>
                     <input type="submit" value="Entrar">
                     <a href="esqueci.html" class="botao">
-                        Esqueci a senha <span class="material-icons">mail</span>
+                        Esqueci a senha<span class="material-icons">mail</span>
                     </a>
                 </form>
             </div>
         </section>
     </main>
 </body>
+
 </html>
